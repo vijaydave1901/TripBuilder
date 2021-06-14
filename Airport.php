@@ -18,17 +18,17 @@ class Airport
     private $TimeZone; //String
    
    
-    function __construct($APcode, $CityCode, $Name, $City, $CountryCode, $RegionCode, $Latitude, $Longitude, $Longitude, $TimeZone)
+    function __construct($APcode, $CityCode, $Name, $City, $CountryCode, $RegionCode, $Latitude, $Longitude, $TimeZone)
     {
-        this->APCode = $APcode;
-        this->CityCode = $CityCode;
-        this->Name = $Name;
-        this->Cit = $City;
-        this->CountryCode = $CountryCode;
-        this->RegionCode = $RegionCode;
-        this->Latitude = $Latitude;
-        this->Longitude = $Longitude;
-        this->TimeZone = $TimeZone;
+        $this->APCode = $APcode;
+        $this->CityCode = $CityCode;
+        $this->Name = $Name;
+        $this->Cit = $City;
+        $this->CountryCode = $CountryCode;
+        $this->RegionCode = $RegionCode;
+        $this->Latitude = $Latitude;
+        $this->Longitude =$Longitude;
+        $this->TimeZone = $TimeZone;
     }
 
     public static function init_Database() 

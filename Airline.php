@@ -11,8 +11,8 @@ class Airline
 
     function __construct($ALCode, $Name)
     {
-        this->ALCode = $ALCode;
-        this->Name = $Name;
+        $this->ALCode = $ALCode;
+        $this->Name = $Name;
     }
 
     public static function init_Database() 
