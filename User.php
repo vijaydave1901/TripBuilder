@@ -13,10 +13,10 @@ class User
 
     function __construct($User_D_Airport,$User_A_Airpor,$User_A_Date,$User_D_Date)
     {
-       this-> $User_D_Airport =$User_D_Airport;
-       this-> $User_A_Airport =$User_A_Airport;
-       this-> $User_A_Date = $User_A_Date;
-       this-> $User_D_Date =$User_D_Date;
+        $this-> $User_D_Airport =$User_D_Airport;
+        $this-> $User_A_Airport =$User_A_Airport;
+        $this-> $User_A_Date = $User_A_Date;
+        $this-> $User_D_Date =$User_D_Date;
         
     }
 
